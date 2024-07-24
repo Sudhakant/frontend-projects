@@ -1,0 +1,15 @@
+h1 {
+    text-align: center;
+}
+
+div.tribute-intro {
+    text-align: center;
+}
+
+div.tribute-info h2{
+    text-align: center;
+}
+
+div.tribute-info p{
+    text-align: justify;
+}
