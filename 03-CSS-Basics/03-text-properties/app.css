@@ -1,0 +1,15 @@
+h1 {
+    /* The text inside the element are centered, not the element itself */
+    text-align: center;
+    font-weight: normal;
+    text-decoration: blue underline wavy;
+    letter-spacing: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    line-height: 2;
+}
