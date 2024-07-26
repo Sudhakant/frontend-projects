@@ -5,6 +5,7 @@ h1 {
     text-decoration: blue underline wavy;
     letter-spacing: 10px;
     font-size: 50px;
+    font-family: 'Courier New', Arial, 'Times New Roman';
 }
 
 a {
