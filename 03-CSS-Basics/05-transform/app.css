@@ -39,3 +39,11 @@ section:first-of-type h1:nth-of-type(4){
     transform: translateY(100px);
     /* transform: translate(200px, 100px); */
 }
+
+section:nth-of-type(2) h1:nth-of-type(1){
+    transform: skewX(45deg);
+}
+section:nth-of-type(2) h1:nth-of-type(2){
+    transform: skewY(45deg);
+    /* transform: skew(10deg, 25deg); */
+}
