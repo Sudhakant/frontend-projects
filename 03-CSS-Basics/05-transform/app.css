@@ -1,0 +1,43 @@
+h1 {
+    background-color: #2a9d8f;
+    border: 5px solid #264653;
+    color: #eae2b7;
+    padding: 0.7em;
+    width: 300px;
+    font-size: 1.8em;
+    text-align: center;
+    margin: 20px auto;
+    font-family: 'Courier New';
+    font-weight: lighter;
+}
+
+h1:nth-of-type(2n){
+    background-color: #e9c46a;
+}
+h1:nth-of-type(3n){
+    background-color: #f4a261;
+}
+h1:nth-of-type(4n){
+    background-color: #e76f51;
+}
+
+/* section h1:nth-of-type(4n-3) {
+    border: 2px solid black;
+    color: white;
+    background-color: green;
+}
+section h1:nth-of-type(4n-2) {
+    border: 2px solid black;
+    color: white;
+    background-color: yellow;
+}
+section h1:nth-of-type(4n-1) {
+    border: 2px solid black;
+    color: white;
+    background-color: orange;
+}
+section h1:nth-of-type(4n) {
+    border: 2px solid black;
+    color: white;
+    background-color: red;
+} */
