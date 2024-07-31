@@ -47,3 +47,11 @@ section:nth-of-type(2) h1:nth-of-type(2){
     transform: skewY(45deg);
     /* transform: skew(10deg, 25deg); */
 }
+
+section:nth-of-type(2) h1:nth-of-type(3){
+    transform: rotate(-20deg) scale(1.3);
+}
+
+section:nth-of-type(2) h1:nth-of-type(4){
+    transform: translateX(-500px) rotate(0.5turn) scaleY(1.5);
+}
