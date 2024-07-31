@@ -1,0 +1,10 @@
+.circle {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(206, 98, 86);
+}
+
+.circle:hover {
+    border-radius: 50%;
+    background-color: lightblue;
+}
