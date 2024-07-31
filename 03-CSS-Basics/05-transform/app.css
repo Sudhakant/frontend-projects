@@ -21,6 +21,10 @@ h1:nth-of-type(4n){
     background-color: #e76f51;
 }
 
+section:first-of-type h1:nth-of-type(1){
+    transform: rotate(45deg);
+}
+
 /* section h1:nth-of-type(4n-3) {
     border: 2px solid black;
     color: white;
