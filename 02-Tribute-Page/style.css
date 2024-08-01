@@ -11,8 +11,19 @@ h1 {
     font-size: 2.5em;
 }
 
-div.tribute-intro {
+div.tribute-intro{
     text-align: center;
+}
+
+div.tribute-intro img{
+    display: inline-block;
+    width: 100%;
+    border: 1px solid #98FB98;
+    box-shadow: 20px 20px 20px #98FB98;
+}
+
+div.tribute-intro p{
+    text-align: left;
 }
 
 div.tribute-info{
