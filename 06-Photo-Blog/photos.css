@@ -1,8 +1,8 @@
 img {
     width: 30%;
     /* margin: 1.6666%; */
-    /* margin: calc(10%/6); */
-    margin: 1.5%;
+    margin: calc(10%/6);
+    /* margin: 1.5%; */
 }
 
 nav {
@@ -11,6 +11,6 @@ nav {
     text-transform: uppercase;
     border-bottom: 2px solid #f1f1f1;
     width: 30%;
-    margin-left: 1.5%;
+    margin-left: calc(10%/6);
     padding: 1.2em 0;
 }
