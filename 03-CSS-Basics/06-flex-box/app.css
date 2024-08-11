@@ -44,9 +44,9 @@ main {
 
 main .sidebar {
     background-color: purple;
-    flex: 1;
+    flex: 1 2 300px;
 }
 main .maincontent {
     background-color: skyblue;
-    flex: 1;
+    flex: 2 1 800px;
 }
