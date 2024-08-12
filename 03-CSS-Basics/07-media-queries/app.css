@@ -16,7 +16,7 @@ ul,li {
     padding: 0;
 }
 
-@media (width: 800px) {
+@media (min-width: 800px) {
     h1 {
         color: purple;
     }
