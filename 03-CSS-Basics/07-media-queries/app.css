@@ -42,11 +42,7 @@ ul {
     h1 {
         font-size: 4em;
     }
-    nav {
-        flex-direction: column;
-        align-items: center;
-    }
-    nav ul {
+    nav, nav ul {
         flex-direction: column;
         align-items: center;
     }
