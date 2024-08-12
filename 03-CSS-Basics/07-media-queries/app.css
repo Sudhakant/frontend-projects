@@ -18,6 +18,12 @@ ul,li {
     padding: 0;
 }
 
+ul {
+    border: 2px solid black;
+    flex-grow: 1;
+    max-width: 50%;
+}
+
 @media (min-width: 600px) and (max-width: 800px) {
     h1 {
         color: purple;
