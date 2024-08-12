@@ -22,4 +22,10 @@ ul,li {
     }
 }
 
+@media (orientation: landscape){
+    body {
+        background-color: green;
+    }
+}
+
 
