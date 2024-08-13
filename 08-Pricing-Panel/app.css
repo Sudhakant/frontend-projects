@@ -125,3 +125,7 @@ body {
     text-decoration: none;
     margin: 25px 0;
 }
+
+.pricing-button:hover, .pricing-button:focus {
+    background-color: #e1f1ff;
+}
