@@ -145,4 +145,7 @@ body {
     .panel {
         flex-direction: row;
     }
+    .pricing-plan {
+        border-bottom: none;
+    }
 }
