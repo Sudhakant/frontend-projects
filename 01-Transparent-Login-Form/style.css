@@ -10,7 +10,8 @@ body {
 .full-screen-container {
     background-image: url('background-image.jpg');
     height: 100vh;
-    width: 100wh;
+    width: 100vw;
+    background-size: cover;
 }
 
 .login-title {
