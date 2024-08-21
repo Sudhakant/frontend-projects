@@ -69,4 +69,6 @@ body {
     border: none;
     outline: none;
     border-radius: .25em;
+    color: wheat;
+    font-weight: lighter;
 }
