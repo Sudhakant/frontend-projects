@@ -64,4 +64,6 @@ body {
 
 .input-group input {
     font-size: 1.25rem;
+    padding: .5rem;
+    background-color: hsl(var(--primary-light-hsl), .3);
 }
