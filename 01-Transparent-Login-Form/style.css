@@ -72,3 +72,7 @@ body {
     color: wheat;
     font-weight: lighter;
 }
+
+.input-group input:focus {
+    border: 1px solid hsl(var(--primary-hsl));
+}
