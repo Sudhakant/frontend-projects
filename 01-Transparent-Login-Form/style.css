@@ -46,7 +46,13 @@ body {
 .form {
     display: flex;
     flex-direction: column;
-    color: white;
+    /* color: white; */
     gap: 20px;
     margin-top: 40px;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
 }
