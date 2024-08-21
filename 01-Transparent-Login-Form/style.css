@@ -80,6 +80,10 @@ body {
     box-shadow: 0 0 0 1px hsl(var(--success-hsl));
 }
 
+.input-group.error input {
+    box-shadow: 0 0 0 1px hsl(var(--error-hsl));
+}
+
 .input-group input:focus {
     box-shadow: 0 0 0 1px hsl(var(--primary-hsl));
     /* border: 1px solid hsl(var(--primary-hsl)); */
