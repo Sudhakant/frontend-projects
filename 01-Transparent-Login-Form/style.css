@@ -74,5 +74,6 @@ body {
 }
 
 .input-group input:focus {
-    border: 1px solid hsl(var(--primary-hsl));
+    box-shadow: 0 0 0 1px hsl(var(--primary-hsl));
+    /* border: 1px solid hsl(var(--primary-hsl)); */
 }
