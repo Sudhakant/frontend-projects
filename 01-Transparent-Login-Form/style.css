@@ -115,4 +115,11 @@ body {
     background-color: hsl(var(--primary-hsl), .25);
     border: 1px solid hsl(var(--primary-hsl));
     border-radius: .25em;
+    outline: none;
+    cursor: pointer;
+}
+
+.login-button:hover,
+.login-button:focus {
+    background-color: hsl(var(--primary-hsl), .4);
 }
