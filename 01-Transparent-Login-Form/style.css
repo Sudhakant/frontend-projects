@@ -66,4 +66,7 @@ body {
     font-size: 1.25rem;
     padding: .5rem;
     background-color: hsl(var(--primary-light-hsl), .3);
+    border: none;
+    outline: none;
+    border-radius: .25em;
 }
