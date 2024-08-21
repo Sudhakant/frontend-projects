@@ -88,3 +88,21 @@ body {
     box-shadow: 0 0 0 1px hsl(var(--primary-hsl));
     /* border: 1px solid hsl(var(--primary-hsl)); */
 }
+
+.input-group .msg {
+    display: none;
+    font-size: .75rem;
+}
+
+.input-group.success .msg,
+.input-group.error .msg {
+    display: block;
+}
+
+.input-group.success .msg {
+    color: hsl(var(--success-hsl));
+}
+
+.input-group.error .msg {
+    color: hsl(var(--error-hsl));
+}
