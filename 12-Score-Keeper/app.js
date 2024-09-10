@@ -11,6 +11,7 @@ let playerTwoScore = +playerTwoSpan.innerText;
 selector.addEventListener('change', function(evt){
     selectedValue = +evt.target.value;
     // console.log(playerOne, playerTwo, reset)
+    resetUtil(selectedValue);
 })
 
 playerOneButton.addEventListener('click', function(){
@@ -18,7 +19,7 @@ playerOneButton.addEventListener('click', function(){
     console.log(playerOneScore, selectedValue);
     playerOneScore += 1;
     if(selectedValue <= (playerOneScore)){
-        console.log('Win');
+        console.log('Player 1 Wins');
         this.disabled = true;
         playerTwoButton.disabled = true;
     }
@@ -28,7 +29,7 @@ playerOneButton.addEventListener('click', function(){
 playerTwoButton.addEventListener('click', function(){
     playerTwoScore += 1;
     if(selectedValue <= (playerTwoScore)){
-        console.log('Win');
+        console.log('Player 2 Wins');
         playerOneButton.disabled = true;
         this.disabled = true;
     }
@@ -36,8 +37,15 @@ playerTwoButton.addEventListener('click', function(){
 })
 
 resetButton.addEventListener('click', function(){
+    resetUtil();
+})
+
+function resetUtil(selectedValue=0){
     // selector.value = 5;
     selector.selectedIndex = 0;
+    if(selectedValue){
+        selector.value = selectedValue;
+    }
     playerOneSpan.innerText = 0;
     playerTwoSpan.innerText = 0;
     playerOneButton.disabled = false;
@@ -45,4 +53,4 @@ resetButton.addEventListener('click', function(){
     selectedValue = +selector.value;
     playerOneScore = +playerOneSpan.innerText;
     playerTwoScore = +playerTwoSpan.innerText;
-})
+}
