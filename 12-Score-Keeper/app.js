@@ -42,4 +42,7 @@ resetButton.addEventListener('click', function(){
     playerTwoSpan.innerText = 0;
     playerOneButton.disabled = false;
     playerTwoButton.disabled = false;
+    selectedValue = +selector.value;
+    playerOneScore = +playerOneSpan.innerText;
+    playerTwoScore = +playerTwoSpan.innerText;
 })
