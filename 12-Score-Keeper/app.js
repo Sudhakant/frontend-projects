@@ -15,7 +15,7 @@ selector.addEventListener('change', function(evt){
 
 playerOneButton.addEventListener('click', function(){
     // const currentScore = +playerOneSpan.innerText;
-    // console.log(currentScore, selectedValue)
+    console.log(playerOneScore, selectedValue);
     playerOneScore += 1;
     if(selectedValue <= (playerOneScore)){
         console.log('Win');
@@ -35,13 +35,11 @@ playerTwoButton.addEventListener('click', function(){
     playerTwoSpan.innerText = playerTwoScore;
 })
 
-
-
-
-
-
-
-
-// playerTwo.addEventListener('click', function(){
-//     playerTwoScore.innerText = +playerTwoScore.innerText + 1;
-// })
+resetButton.addEventListener('click', function(){
+    // selector.value = 5;
+    selector.selectedIndex = 0;
+    playerOneSpan.innerText = 0;
+    playerTwoSpan.innerText = 0;
+    playerOneButton.disabled = false;
+    playerTwoButton.disabled = false;
+})
