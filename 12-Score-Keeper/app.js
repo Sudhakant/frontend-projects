@@ -25,6 +25,16 @@ playerOneButton.addEventListener('click', function(){
     playerOneSpan.innerText = playerOneScore;
 })
 
+playerTwoButton.addEventListener('click', function(){
+    playerTwoScore += 1;
+    if(selectedValue <= (playerTwoScore)){
+        console.log('Win');
+        playerOneButton.disabled = true;
+        this.disabled = true;
+    }
+    playerTwoSpan.innerText = playerTwoScore;
+})
+
 
 
 
