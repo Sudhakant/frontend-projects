@@ -1,0 +1,15 @@
+.pokemon {
+    border: 2px solid grey;
+    border-radius: 2%;
+    text-align: center;
+    height: 50vh;
+    width: 50vh;
+    color: blue;
+    font-weight: 700;
+  }
+  
+  .pokemon img {
+    width: 150px;
+    height: 150px;
+  }
+  
