@@ -6,9 +6,9 @@ export default function Counter() {
     setCount(count + 1);
   };
   const addThree = () => {
-    setCount(count + 1);
-    setCount(count + 1);
-    setCount(count + 1);
+    setCount((currentCount) => (currentCount + 1));
+    setCount((currentCount) => (currentCount + 1));
+    setCount((currentCount) => (currentCount + 1));
   };
   return (
     <div>
