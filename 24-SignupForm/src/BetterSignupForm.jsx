@@ -1,17 +1,17 @@
 import { useState } from "react";
 
-export default function SignupForm() {
+export default function BetterSignupForm() {
   const [formData, setFormData] = useState({
     firstName: "",
     lastName: ""
   });
 
-  function handleChange(evt){
-    const fieldName = evt.target.name;
-    const value = evt.target.value;
+  const handleChange = (evt) => {
+    const changedField = evt.target.name;
+    const newValue = evt.target.value;
 
     setFormData(currData => {
-        currData[fieldName] = value;
+        currData[changedField] = newValue;
         return { ...currData };
     });
   }
