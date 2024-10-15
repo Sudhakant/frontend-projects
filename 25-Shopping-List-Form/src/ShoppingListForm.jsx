@@ -19,6 +19,10 @@ export default function ShoppingListForm({addItem}){
         e.preventDefault();
         // console.log('TEST')
         addItem(formData);
+        setFormData({
+            product:"",
+            quantity:0
+        })
     }
 
     return (
@@ -42,6 +46,7 @@ export default function ShoppingListForm({addItem}){
                 value={formData.quantity}
                 onChange={handleChange} 
             />
+            <button>Add Item</button>
         </form>
     )
 }

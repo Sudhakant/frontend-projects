@@ -11,7 +11,7 @@ export default function ShoppingList(){
         setItems((currItems) => {
             return [
                 ...currItems,
-                {...item, id: 3}
+                {...item, id: currItems.length + 1}
             ];
         });
     };
