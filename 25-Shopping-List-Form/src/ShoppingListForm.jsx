@@ -27,6 +27,15 @@ export default function ShoppingListForm(){
                 value={formData.product}
                 onChange={handleChange} 
             />
+            <label htmlFor="quantity">Quantity Name</label>
+            <input 
+                type="number" 
+                placeholder="0"
+                name="quantity"
+                id="quantity"
+                value={formData.quantity}
+                onChange={handleChange} 
+            />
         </form>
     )
 }
