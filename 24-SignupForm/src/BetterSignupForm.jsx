@@ -28,6 +28,7 @@ export default function SignupForm() {
         placeholder="firstName"
         value={formData.firstName}
         onChange={handleChange}
+        name="firstName"
         id="firstname"
       />
       <label htmlFor="lastname">Last Name: </label>
@@ -36,6 +37,7 @@ export default function SignupForm() {
         placeholder="lastName"
         value={formData.lastName}
         onChange={handleChange}
+        name="firstName"
         id="lastname"
       />
       <button onSubmit={handleSubmit}>Submit</button>
