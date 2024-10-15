@@ -7,12 +7,14 @@ export default function ShoppingList(){
         {id: 2, product: 'Eggs', quantity: 12},
     ]);
 
-    const addItem = () => {
-        return [
-            ...items,
-            {id: 3}
-        ]
-    }
+    const addItem = (item) => {
+        setItems((currItems) => {
+            return [
+                ...currItems,
+                {...item, id: 3}
+            ];
+        });
+    };
 
     return (
         <div>
