@@ -15,8 +15,13 @@ export default function ShoppingListForm(){
         })
     }
 
+    const handleSubmit = (e) => {
+        e.preventDefault();
+        console.log('TEST')
+    }
+
     return (
-        <form>
+        <form onSubmit={handleSubmit}>
             <h1>Product is: {formData.product}</h1>
             <label htmlFor="product">Product Name</label>
             <input 
