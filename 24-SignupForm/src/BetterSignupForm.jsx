@@ -17,7 +17,7 @@ export default function BetterSignupForm() {
   }
 
   const handleSubmit = () => {
-    console.log(firstName, lastName);
+    console.log(formData);
   };
 
   return (
