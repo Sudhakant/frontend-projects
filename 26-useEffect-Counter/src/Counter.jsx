@@ -6,7 +6,7 @@ export default function Counter(){
 
     useEffect(function myEffect(){
         console.log("MY EFFECT WAS CALLED!")
-    });
+    }, [count]);
     
     const increment = () => {
         setCount((c) => c + 1);
