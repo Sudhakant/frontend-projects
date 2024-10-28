@@ -62,6 +62,7 @@ export default function TodoList() {
           <TodoItem
             todo={todo}
             key={todo.id}
+            // Two option to pass state from parent to child
             remove={removeTodo}
             toggle={() => toggleTodo(todo.id)}
           />
